@@ -1,0 +1,55 @@
+Office fédéral de météorologie et de climatologie, MétéoSuisse
+Operation Center 1
+Postfach 257
+8058 Zürich-Flughafen
+
+stn yyyyMMddHHmm
+
+stn Abréviation de la station
+y   Année
+M   Mois
+d   Jour
+H   Heure
+m   Minute   
+     
+Heures en UTC:           00:40 UTC = 02:40 heure d'été
+                                   = 01:40 heure d'hiver
+
+Référence du temps pour les valeurs horaires, si rien d'autre ne figure dans la description du paramètre: HH  = (HH-1):41 - HH:40
+Exemple: 13 = se réfère à la période de mesure de 12:41 à 13:40
+
+Les valeurs manquantes sont caractérisées par un '-'.
+
+Informations sur la qualité: la légende relative aux informations sur la qualité se trouve sous: https://gate.meteoswiss.ch/idaweb/text/datenqualitaet_legende_fr.pdf
+
+
+ 
+
+
+
+Stations
+--------
+stn       Nom                                  Parameter        Source de données                                  Longitude/Latitude       Coordonnées [km] Altitude [m]
+WFJ       Weissfluhjoch                        fkl010z3         MeteoSchweiz                                       9°48'/46°50'             780614/189634    2691
+WFJ       Weissfluhjoch                        fkl010z1         MeteoSchweiz                                       9°48'/46°50'             780614/189634    2691
+WFJ       Weissfluhjoch                        prestas0         MeteoSchweiz                                       9°48'/46°50'             780614/189634    2691
+WFJ       Weissfluhjoch                        pp0qnhs0         MeteoSchweiz                                       9°48'/46°50'             780614/189634    2691
+WFJ       Weissfluhjoch                        tre200s0         MeteoSchweiz                                       9°48'/46°50'             780614/189634    2691
+WFJ       Weissfluhjoch                        rre150z0         MeteoSchweiz                                       9°48'/46°50'             780614/189634    2691
+WFJ       Weissfluhjoch                        ure200s0         MeteoSchweiz                                       9°48'/46°50'             780614/189634    2691
+WFJ       Weissfluhjoch                        fkl010z0         MeteoSchweiz                                       9°48'/46°50'             780614/189634    2691
+WFJ       Weissfluhjoch                        dkl010z0         MeteoSchweiz                                       9°48'/46°50'             780614/189634    2691
+
+Paramètre
+---------
+          Unité                                Description
+fkl010z3  m/s                                  rafale (intégration 3 s); maximum
+fkl010z1  m/s                                  rafale (intégration 1 s); maximum
+prestas0  hPa                                  pression atmosphérique à l'altitude de la station (QFE); valeur instantanée
+pp0qnhs0  hPa                                  pression atmosphérique réduite avec l'atmosphère standard (QNH); valeur instantanée
+tre200s0  °C                                   température de l'air à 2 m du sol; valeur instantanée
+rre150z0  mm                                   précipitation: sommation sur 10 minutes
+ure200s0  %                                    humidité de l'air relative à 2 m su sol; valeur instantanée
+fkl010z0  m/s                                  vitesse du vent scalaire; moyenne sur 10 minutes
+dkl010z0  °                                    direction du vent; moyenne sur 10 minutes
+

@@ -1,0 +1,4 @@
+J.Gehring, April 2020,
+This readme is a short summary of I used the codes in this folder.
+1) merge the classification with merge_predictions_for_campaign.m. Save the output in .mat.
+2) Write the output in a text file with write_in_textfile_predictions_for_campaign.m or write_in_textfile_predictions_for_campaign_triplet. The latter will save the classification for triplets and I slightly modified the names of the column and added the old flake ID to be able to merge this file with the blowing snow classification in the SharedSchaerMBL library.

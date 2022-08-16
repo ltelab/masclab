@@ -1,0 +1,29 @@
+1           #use_triplet_algo
+12          #background threshold
+1           #camera order (1=normal [0 1 2], 2=CSU 5cams [4 3 2 0 1])
+400         #discard matrix top
+548         #discard matrix bottom
+320         #discard matrix left
+410         #discard matrix right
+0           #distance of the LED array from the top boarder (obsolete)
+1           #parallel processing
+0           #retrieve temperature (not functional)
+0           #minimum acceptable average particle size in pixels (10 usually)
+20          #minimum acceptable size of the ROI area (20 usually)
+0           #minimum acceptable average pixel brightness within the ROI (0.1 usually)
+0           #minimum acceptable maximum pixel brightness within the ROI (0.15 usually)
+50          #tolerance for matching algorithm in pixels (30 usually)
+1           #tolerance for matching algorithm in 100% of the height of the particle (1 usually)
+0           #generate some post-processed figures (decrease speed drastically)
+0           #display figs generated (decrease speed drastically)
+1           #flake brightening (necessary to compute some descriptors)
+10          #minimum area for particle holes, in pixels (10 usually)
+1           #save results
+0           #save figures
+
+
+
+
+
+
+
