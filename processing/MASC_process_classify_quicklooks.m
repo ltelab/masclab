@@ -17,10 +17,10 @@ try
     % part 1 : image processing and cropping
     masc_process = true;
     masc_regen_from_start = true;
-    process_params_file = 'userspecs/params_files/process_params_ICEGENESIS_2021.txt'; % -> path to file containing processing parameters. Examples are given in masclab/userspecs/params_files/*.txt
+    process_params_file = 'userspecs/params_files/process_params_Eriswil_2024.txt'; % -> path to file containing processing parameters. Examples are given in masclab/userspecs/params_files/*.txt
     % just use process_params_DEFAULT.txt if you do not know how to fill the parameters
-    label_params.campaigndir = '/ltedata/ICEGENESIS_2021/MASC/Raw_data'; % -> path to directory where raw MASC data is located.
-    label_params.output_dir = '/ltedata/ICEGENESIS_2021/MASC/Proc_data'; % -> path to directory where processed MASC data will be stored. 
+    label_params.campaigndir = '/ltedata/Eriswil_2024/MASC/Raw_data'; % -> path to directory where raw MASC data is located.
+    label_params.output_dir = '/ltedata/Eriswil_2024/MASC/Proc_data'; % -> path to directory where processed MASC data will be stored. 
     
     % time interval you want to process
     label_params.starthr_vec = [2021 01 01 00 00 00];
@@ -35,7 +35,7 @@ try
     gen_quicklooks = true;
     regen_quicklooks = true;
     options.savefigs = true;
-    options.savepath = '/ltedata/ICEGENESIS_2021/MASC/Quicklooks';
+    options.savepath = '/ltedata/Eriswil_2024/MASC/Quicklooks';
     options.pixres = 33.5/1000; % MASC pixel resolution in mm/pixel
     options.xi_thresh = 9; % quality parameter threshold
     options.Nmin_interval = 30; % time window (min)
